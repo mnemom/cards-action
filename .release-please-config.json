@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "node",
+  "include-component-in-tag": false,
+  "tag-separator": "",
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": false,
+  "packages": {
+    ".": {
+      "package-name": "cards-action",
+      "release-type": "node",
+      "extra-files": []
+    }
+  },
+  "plugins": [
+    {
+      "type": "linked-versions",
+      "groupName": "cards-action",
+      "components": ["."]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+name: 'Mnemom Cards'
+description: 'Care-framed CI feedback for Mnemom alignment + protection manifests'
+author: 'Mnemom Inc.'
+branding:
+  icon: shield
+  color: blue
+inputs:
+  api-key:
+    description: 'Mnemom API key (api:read scope sufficient). Store as a repository secret.'
+    required: true
+  api-base-url:
+    description: 'Mnemom API base URL. Defaults to https://api.mnemom.ai.'
+    required: false
+    default: 'https://api.mnemom.ai'
+  config-path:
+    description: 'Path to ci-config.yaml relative to the repo root.'
+    required: false
+    default: '.mnemom/ci-config.yaml'
+  simulate-cases-path:
+    description: 'Path to simulate-cases.yaml relative to the repo root.'
+    required: false
+    default: '.mnemom/tests/simulate-cases.yaml'
+  github-token:
+    description: 'GitHub token used to post the PR comment. Defaults to the workflow token.'
+    required: false
+    default: ${{ github.token }}
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
