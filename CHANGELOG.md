@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/mnemom/cards-action/compare/v1.0.0...v1.0.1) (2026-05-30)
+
+
+### Bug Fixes
+
+* **security:** remediate audit findings (cards-action) ([#2](https://github.com/mnemom/cards-action/issues/2)) ([e7052dc](https://github.com/mnemom/cards-action/commit/e7052dcb0fc13018d49d423415b947ae2c41a657))
+
 ## [1.0.0] — 2026-05-21
 
 Initial release. Editorial-feedback GitHub Action for Mnemom alignment +
