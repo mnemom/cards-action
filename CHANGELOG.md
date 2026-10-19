@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/mnemom/cards-action/compare/v1.0.0...v1.0.1) (2026-10-19)
+
+
+### Bug Fixes
+
+* **deps:** bump source-map-js 1.2.1 -&gt; 1.2.2 in lockfile (Dependabot [#36](https://github.com/mnemom/cards-action/issues/36)) ([#9](https://github.com/mnemom/cards-action/issues/9)) ([c769918](https://github.com/mnemom/cards-action/commit/c76991886ab8277a72f3f0a39a886b4ce9e57307))
+* **security:** remediate audit findings (cards-action) ([#2](https://github.com/mnemom/cards-action/issues/2)) ([e7052dc](https://github.com/mnemom/cards-action/commit/e7052dcb0fc13018d49d423415b947ae2c41a657))
+
 ## [1.0.0] — 2026-05-21
 
 Initial release. Editorial-feedback GitHub Action for Mnemom alignment +
