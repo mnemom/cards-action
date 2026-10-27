@@ -1,9 +1,15 @@
 {
   "name": "@mnemom/cards-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Care-framed CI feedback for Mnemom alignment + protection manifests",
-  "keywords": ["mnemom", "agents", "governance", "ci", "github-action"],
+  "keywords": [
+    "mnemom",
+    "agents",
+    "governance",
+    "ci",
+    "github-action"
+  ],
   "license": "MIT",
   "type": "module",
   "engines": {

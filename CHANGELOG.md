@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.1](https://github.com/mnemom/cards-action/compare/v1.0.0...v1.0.1) (2026-10-27)
+
+
+### Bug Fixes
+
+* **deps:** bump source-map-js 1.2.1 -&gt; 1.2.2 in lockfile (Dependabot [#36](https://github.com/mnemom/cards-action/issues/36)) ([#9](https://github.com/mnemom/cards-action/issues/9)) ([c769918](https://github.com/mnemom/cards-action/commit/c76991886ab8277a72f3f0a39a886b4ce9e57307))
+* **deps:** bump undici 6.28.1 -&gt; 6.29.1 and vite 6.4.3 -&gt; 6.4.4 (Dependabot [#39](https://github.com/mnemom/cards-action/issues/39)-[#45](https://github.com/mnemom/cards-action/issues/45)) ([#11](https://github.com/mnemom/cards-action/issues/11)) ([1b3b2fc](https://github.com/mnemom/cards-action/commit/1b3b2fce6b1fe5a357206f5aaf08127f43abdad6))
+* **deps:** bump vitest + @vitest/coverage-v8 4.1.11 -&gt; 4.1.12 for @vitest/mocker (Dependabot [#38](https://github.com/mnemom/cards-action/issues/38)) ([#10](https://github.com/mnemom/cards-action/issues/10)) ([55b051d](https://github.com/mnemom/cards-action/commit/55b051dfddb4eb30562a525a81d61cd6f8319796))
+* **security:** remediate audit findings (cards-action) ([#2](https://github.com/mnemom/cards-action/issues/2)) ([e7052dc](https://github.com/mnemom/cards-action/commit/e7052dcb0fc13018d49d423415b947ae2c41a657))
+
 ## [1.0.0] — 2026-05-21
 
 Initial release. Editorial-feedback GitHub Action for Mnemom alignment +
